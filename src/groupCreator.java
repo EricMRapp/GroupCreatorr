@@ -25,6 +25,7 @@ public class groupCreator {
 		Scanner namesList = new Scanner(new File("StudentList.txt"));
 		System.out.println("How many people would you like per group??");
 		Scanner groups= new Scanner(System.in);
+		//this is a test to see if it works
 		
 		while(namesList.hasNext())
 		{
